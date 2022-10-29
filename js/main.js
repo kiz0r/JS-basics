@@ -24,3 +24,13 @@ console.log("num =", num);
 console.log("boolean =", boolean);
 console.log("string =", string);
 console.log("fakeNumber =", fakeNumber);
+
+/* part 3*/
+num = 1;
+console.log("num += 11 =>", (num += 11)); // num = num + 11;
+console.log("num -= 11 =>", (num -= 11)); // num = num – 11;
+console.log("num *= 11 =>", (num *= 11)); // num = num * 11;
+console.log("num /= 11 =>", (num /= 11)); // num = num  /11;
+console.log("--num =>", ++num); // num = num + 1;
+console.log("--num =>", --num); // num = num – 1;
+/* В предыдущих двух строках используется не постинкремент по той причине, что условие постинкремента выполнится после console.log и не покажет результат в консоль*/
